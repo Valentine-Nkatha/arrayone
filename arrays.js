@@ -12,4 +12,28 @@ var arr3=[-5,9,5,3,2,-3,6,8,4,1];
 var arr4=arr3.sort();
 console.log({arr4});
 //QUESTION 4
-
+let arr=["boy","man","girl",   "school","girl","woman"];
+let originalBeings=[];
+let duplicates=[];
+arr.forEach(being=>{
+    if(!originalBeings.includes(being)){
+    }
+    else(duplicates.push(being));
+});
+console.log({originalBeings});
+console.log({duplicates});
+//QUESTION5
+let arr5=["the","way","x",4];
+let arr6=["the","way","x",4];
+const word1="food";
+const wordsIndex=arr6.indexOf(word1);
+if(word1==arr6[1]){console.log({word1})};
+{console.log("the search was not found")};
+//QUESTION 6
+let word="renniw";
+let word2=word.split("").sort().join();
+console.log({word2});
+//QUESTION7
+let myFruits=["Guava","Pear","Mango","Apple","Orange","Lemon","Grape","Pineapple","Melon","Kiwi"];
+let newArrFruits=myFruits.slice(0,4)+" Tomato "+myFruits.slice(4);
+console.log({newArrFruits});
